@@ -96,7 +96,7 @@ class EventEmitter
         return $this->store($name, array('func'=> & $func,'once'=>true), true);
     }
 
-    function refreshWarnings ()
+    function refreshWarnings ()/* : void */
     {
         foreach ( array_keys($this->events) as $key )
             if ( key_exists('warned',$this->events[$key]) )

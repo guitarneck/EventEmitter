@@ -1,4 +1,8 @@
 <?php
+/*
+    µtest - The micron unit testing library
+    © 2020 guitarneck
+*/
 if(!defined('__UTEST_LIB__')):
      define('__UTEST_LIB__',1);
 
